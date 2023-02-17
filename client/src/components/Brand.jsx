@@ -5,7 +5,7 @@ export const Brad = () => {
   return (
     <span className="flex items-center">
       <Logo />
-      <small className="text-xl font-semibold text-primary select-none cursor-pointer">
+      <small className="text-xl font-bold text-primary select-none cursor-pointer">
         airbnd
       </small>
     </span>
