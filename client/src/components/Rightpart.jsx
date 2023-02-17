@@ -6,7 +6,7 @@ export const Rightpart = () => {
   const [showModal, setShowModal] = React.useState(false);
   return (
     <div
-      className="flex items-center select-none relative"
+      className="flex items-center select-none relative z-10"
       onClick={() => {
         setShowModal((val) => !val);
       }}
